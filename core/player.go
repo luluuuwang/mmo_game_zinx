@@ -1,9 +1,9 @@
 package core
 
 import (
-	"mmo_game_zinx/pb"
 	"fmt"
 	"math/rand"
+	"mmo_game_zinx/pb"
 	"sync"
 	"zinx/ziface"
 
@@ -64,7 +64,6 @@ func (p *Player) SendMsg(msgId uint32, data proto.Message) {
 		return
 	}
 
-	return
 }
 
 // 告知客户端玩家Pid，同步已经生成的玩家ID给客户端
