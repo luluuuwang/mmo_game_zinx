@@ -1,9 +1,9 @@
 package main
 
 import (
-	"demo/apis"
-	"demo/core"
 	"fmt"
+	"mmo_game_zinx/apis"
+	"mmo_game_zinx/core"
 	"zinx/ziface"
 	"zinx/znet"
 )
@@ -45,7 +45,6 @@ func OnConnectionLost(conn ziface.IConnection) {
 
 }
 
-
 func main() {
 	// 创建zinx server句柄
 	s := znet.NewServer("MMO Game Zinx")
@@ -55,9 +54,10 @@ func main() {
 	s.SetOnConnStop(OnConnectionLost)
 
 	// 注册一些路由业务
-	s.AddRouter(2, &apis.WorldChatApi{})  // 聊天的接口
-	s.AddRouter(3, &apis.MoveApi{})  // 向周围广播当前玩家位置变化
+	s.AddRouter(2, &apis.WorldChatApi{}) // 聊天的接口
+	s.AddRouter(3, &apis.MoveApi{})      // 向周围广播当前玩家位置变化
 
+	startInternalHTTP() // ← 加这一行，开启内部只读接口
 
 	// 启动服务
 	s.Serve()

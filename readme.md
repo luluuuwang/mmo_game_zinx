@@ -10,3 +10,8 @@ D:/浏览器下载/mmo_game_client-main(1)/...../client.exe,   port:127.0.0.1
 客户端不用改的原因是客户端一直在用ReadFull(8)读头，然后再读体，
 批量写只是把多条帧连在一起一起写，帧边界仍由datalen确定。
 一次写的时候不用conn.Write()是因为Write会将batch里的n条数据进行n次系统调用，而writev()可以一次性写出多个buffer
+
+启动swagger：
+go run .  // 启动全部服务
+go run ./cmd/adminhttp    // 启动swagger文档
+访问   http://localhost:18080/swagger/index.html#/

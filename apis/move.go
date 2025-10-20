@@ -1,8 +1,8 @@
 package apis
 
 import (
-	"demo/core"
-	"demo/pb"
+	"mmo_game_zinx/core"
+	"mmo_game_zinx/pb"
 	"fmt"
 	"zinx/ziface"
 	"zinx/znet"

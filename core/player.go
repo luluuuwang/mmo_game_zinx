@@ -1,7 +1,7 @@
 package core
 
 import (
-	"demo/pb"
+	"mmo_game_zinx/pb"
 	"fmt"
 	"math/rand"
 	"sync"

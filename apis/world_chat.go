@@ -1,9 +1,9 @@
 package apis
 
 import (
-	"demo/core"
-	"demo/pb"
 	"fmt"
+	"mmo_game_zinx/core"
+	"mmo_game_zinx/pb"
 	"zinx/ziface"
 	"zinx/znet"
 
@@ -14,8 +14,6 @@ import (
 type WorldChatApi struct {
 	znet.BaseRouter
 }
-
-
 
 func (wc *WorldChatApi) Handle(request ziface.IRequest) {
 	//1 解析客户端传递进来的proto协议
@@ -28,7 +26,7 @@ func (wc *WorldChatApi) Handle(request ziface.IRequest) {
 
 	//2 当前的聊天数据是属于哪个玩家发送的
 	pid, err := request.GetConnection().GetProperty("pid")
-	
+
 	//3 根据pid得到对应的player对象
 	player := core.WorldMgrObj.GetPlayerByPid(pid.(int32))
 

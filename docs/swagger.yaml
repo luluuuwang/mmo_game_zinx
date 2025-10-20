@@ -1,0 +1,133 @@
+basePath: /api
+definitions:
+  main.BroadcastAck:
+    properties:
+      delivered:
+        example: 42
+        type: integer
+    type: object
+  main.BroadcastReq:
+    properties:
+      msg:
+        example: 服务器将于10分钟后维护
+        type: string
+    required:
+    - msg
+    type: object
+  main.ErrResp:
+    properties:
+      code:
+        example: GameOffline
+        type: string
+      message:
+        example: game server not running
+        type: string
+    type: object
+  main.PlayerBrief:
+    properties:
+      id:
+        example: 1001
+        type: integer
+      name:
+        example: player-1001
+        type: string
+    type: object
+  main.ServerStatus:
+    properties:
+      onlineCount:
+        example: 42
+        type: integer
+      sceneCount:
+        description: 这里用 AOI 网格数表示场景粒度
+        example: 200
+        type: integer
+      startAt:
+        example: 1729400000
+        type: integer
+      version:
+        example: 1.0.0
+        type: string
+    type: object
+info:
+  contact: {}
+  description: 管理/观测 MMO Game（Zinx）服务器的 HTTP API
+  title: MMO Game Admin API
+  version: "1.0"
+paths:
+  /gm/broadcast:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 消息体
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/main.BroadcastReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/main.BroadcastAck'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/main.ErrResp'
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/main.ErrResp'
+      summary: 世界广播
+      tags:
+      - gm
+  /players:
+    get:
+      parameters:
+      - default: 50
+        description: 最多返回
+        in: query
+        maximum: 500
+        minimum: 1
+        name: limit
+        type: integer
+      - description: 按昵称(占位)过滤，当前用 player-<id> 模拟
+        in: query
+        name: name
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/main.PlayerBrief'
+            type: array
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/main.ErrResp'
+      summary: 在线玩家列表
+      tags:
+      - players
+  /status:
+    get:
+      description: 返回版本、启动时间、在线人数、场景/网格数量
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/main.ServerStatus'
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/main.ErrResp'
+      summary: 服务器状态
+      tags:
+      - status
+swagger: "2.0"
