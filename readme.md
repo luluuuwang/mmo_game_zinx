@@ -1,5 +1,5 @@
 go run main.go 开启服务器
-D:/浏览器下载/mmo_game_client-main(1)/...../client.exe,   port:127.0.0.1
+client/client.exe,   port:127.0.0.1
 
 2025/10/10: msgChan有缓冲；Writer批量取，一次写；背压策略为去除最旧的，塞入最新的消息
 原来的问题：
@@ -11,6 +11,8 @@ D:/浏览器下载/mmo_game_client-main(1)/...../client.exe,   port:127.0.0.1
 批量写只是把多条帧连在一起一起写，帧边界仍由datalen确定。
 一次写的时候不用conn.Write()是因为Write会将batch里的n条数据进行n次系统调用，而writev()可以一次性写出多个buffer
 
+
+2025/10/20：新绑定swagger，将项目暴露出http api接口，通过swagger+gin进行在线调试与契约输出
 启动swagger：
 go run .  // 启动全部服务
 go run ./cmd/adminhttp    // 启动swagger文档
