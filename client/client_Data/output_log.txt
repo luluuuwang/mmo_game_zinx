@@ -1,43 +1,74 @@
-Initialize engine version: 5.4.1f1 (649f48bbbf0f)
-GfxDevice: creating device client; threaded=1
+Iniitiaalizze  ngngni ve rviors: on:4.5.f1 1f619f(68b9fbf0bb)
+f0fx)eGvxDce:icceea creg tievg ceevclceencl; entre ahred=de
+d=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-Begin MonoManager ReloadAssembly
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\Google.Protobuf.dll (this message is harmless)
-Loading \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\Google.Protobuf.dll into Unity Child Domain
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\protobuf-net.dll (this message is harmless)
-Loading \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\protobuf-net.dll into Unity Child Domain
-- Completed reload, in  0.776 seconds
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: \\wsl.localhost\Ubuntu-22.04\home\a\go\src\mmo_game_zinx\client\client_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
+    Version: irDictecD:
+D  1 V0 [leonel  Di1r0]c
+ D   1Re [dlrevel N11IDI]
+  e orReenRTXrer0:0 NVaptIo G GFoU ceI =0TX284e60 
+  p opVeGPdo (: D= Nx2IDe0A
+ 
+     VeAMdo  :   3N0ID2 A
+  
+  VRAM:     3072 MB
+Begin MonoManager RelBadAinseMobny
+Manager ReloadAssembly
+Pllatfoormmasassemblly:  \\\slslloloalalhsosUb\Untun-2u-.02.\h4\meome\gaogosrsr\c\o_moamga_ze_nxincl\cenie\ctlclenen_D_Dta\tan\Mgena\UeditUnEntyEnegidle. (llhi(shisesmsssga gs  iar maresle)s
+Lo)a
+Loindi \g ws\w.socalohoalt\osbtntUb-2nt.0-2\h.o4\e\om\g\a\sgoc\mso_c\amemzi_gx\melizintx\clieent_\catie\MtaDaated\ManitgeEn\Uinit.dlng inte. UllitintCoilUditDymaChn
+ld Domain
+Pllattoror assssmbmbl:y\\w\\l.ll.cllhcasthoUbt\ntbu-2tu.024\04omho\a\\ao\gorcs\cmmmo__gamme__inixx\clliennt\ccliennt_DDataa\Maanagged\\Asssembbly--CShaarp..dll ( tthiss meessaage iis hharmmlesss)
+L
+Loaddingg \\\wsll.loocallhosst\UUbunntu--22..04\\homme\aa\goo\srrc\mmmo__gamme__inxnxcliliet\t\cieiet_t_atat\\Mannageed\AAsseemblly-CCSharrp.ddll iinto UUnityy Chiild DDomaain
+Plattforrm  ssssmbmby:y:\\\\slslloloalalosos\U\Uununu-u-2.2.4\4\omom\a\ag\gsr\srmco\gamm_g_zmenx\inli\cnl\cenie\ct_ieatt_\Matna\MednaUnedtyUnngtiEnegUInedlUI (dlhi ( mhiss mgessisgehaismlhassml
+eoas)in
+Lgad\\nws\\.lol.alhocslh\Ubt\ntbu-2tu.022\h04mehoa\e\o\\grc\srco_mmam_eamzi_zx\nxliceiet\t\lileent_DDataa\Maanagged\\UniityEEngiine..UI..dlll innto Unnityy Chiild  Dommainn
+Plaatfoorm  asssemblly:  \\wwslll.caocholht\st\unbun-2u-204\0hohoe\e\\g\g\s\sc\cmmmo__gamee_ziinxxclcleit\ct\ielit_ntatDa\Ma\naaned\edniUnyEtyginge.neetNeorkorngindl.d (l hith ms sseasae e i h hrmrmesess
+L
+Ladadngng\\\wwslll.caocaolt\osbtntUb-2nt.0422ho04e\ho\me\sa\c\o\morcgamme__ginme\cziinnt\cclieentt\atli\MntnaDgtad\ManiagyEd\ginie.yEetgiore.iNg.twllrkinngo dlni iy tohiUnd tyomChinld
+ Domain
+Plaatforrm aasseemblyy: \\\wssl.llocaalhoost\\Ubuuntuu-22..04\\homme\aa\goo\srr\cm\_gmom__zamne\clinen\c\cieiet\t_liatnt_MaatageMa\Gagogd\e.ooroleobPrf.tolb (f.disl methiag m iss har ilesha)
+Loassin
+L o\asl.ng ca\whol.l\Ucaunhou-t\2.bun\toue\22\g04\shoc\e\mo\_o\ase_c\inmo_clamentziclx\enli_Dna\ca\ieant_geat\G\Mognae.edroGoobglfedlPlotinbuo Udlit i CtoilUn iomy inhi
+ld Domain
+PPatfofrrm aassembbly:: \\wwsl.llocaalhoosttUbUbnuu-t2-2.0.44\homme\ago\o\rcrcmmmoo_gaame__zinnx\cclieent\\cliientt_Datta\Maanagged\\prootobuuf-nnet..dlll ((tisismessssae e s h arrmlesss)
+Loaadingg \\\wsll.loocallhosst\UUbunntu--22..04\hhome\\a\gg\s\sc\c\momog_meamzi_zx\nx\ielit\ntlicenen_D_DtataM\naanedgepr\ptobtof-ufetnedl.dlin io toniUny tyhiChdiDod Dinma
+in
+--CoCoplpltete de oadlo an , 1.n 1  s.12o3dsse
+conds
+Pllatfform aasseemblly:  \\wwslll.caochasthoUsun\Uub2u.0tu\h2o.m4\\aomgo\asrgo\msrocgammo_zganxe_clinen\c\cilni\elnen_D_DtataMaMaagagd\d\ysysemem.oror.d.dl ( (hihi m mssssae e s s ararleles)s
+
+Plaatformm asssemmblyy: \\\wssl.llocaalhoost\\Ubbnuu-t2-2.0.0\h\hmo\ae\ao\grc\\mc\o_moa_e_amin_z\ilix\ntliclntencl_Danta\Daana\gMa\Sagseem\.ydtel .dthl s thesssmege ags his mlarssle
+ss)
+desdtosk: op92 1x9080x 10H80  v0Hrt; alir 19al0x 10820 a10 800
+at 0,0
+<R<> I>n tIalitzinli iinpu i.pu
+t.
+<RI>R > nIun pnutta izeit.al
+ized.
 <RI> Initialized touch support.
-UnloadTime: 0.824700 ms
+UnloadTime: 0.899200 ms
 Setting up 6 worker threads for Enlighten.
-  Thread -> id: 10ebc -> priority: 1 
-  Thread -> id: ed60 -> priority: 1 
-  Thread -> id: 112a8 -> priority: 1 
-  Thread -> id: edd0 -> priority: 1 
-  Thread -> id: eab0 -> priority: 1 
-  Thread -> id: e984 -> priority: 1 
+  Thread -> id: e638 -> priority: 1 
+  Thread -> id: e63c -> priority: 1 
+  Thread -> id: e644 -> priority: 1 
+  Thread -> id: e640 -> priority: 1 
+  Thread -> id: e648 -> priority: 1 
+  Thread -> id: e64c -> priority: 1 
+<RI> Initialized touch support.
+UnloadTime: 0.449600 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: e6f8 -> priority: 1 
+  Thread -> id: e6fc -> priority: 1 
+  Thread -> id: e708 -> priority: 1 
+  Thread -> id: e704 -> priority: 1 
+  Thread -> id: e700 -> priority: 1 
+  Thread -> id: e70c -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.810200 ms
+UnloadTime: 2.044800 ms
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
-Total: 0.269400 ms (FindLiveObjects: 0.013400 ms CreateObjectMapping: 0.005800 ms MarkObjects: 0.121600 ms  DeleteObjects: 0.128000 ms)
+Total: 0.662900 ms (FindLiveObjects: 0.015900 ms CreateObjectMapping: 0.006500 ms MarkObjects: 0.443400 ms  DeleteObjects: 0.196300 ms)
 
 Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
  
@@ -55,7 +86,41 @@ PlayerController singleton already created!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-Player: { "pid": 1 }
+Player: { "pid": 2 }
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+202 count:　1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Start Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.873500 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 368.
+Total: 0.889500 ms (FindLiveObjects: 0.057000 ms CreateObjectMapping: 0.031800 ms MarkObjects: 0.337600 ms  DeleteObjects: 0.461700 ms)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connect: 127.0.0.1:8999
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connect Suc
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+PlayerController singleton already created!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player: { "pid": 3 }
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 

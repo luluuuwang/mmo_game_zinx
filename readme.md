@@ -14,6 +14,6 @@ client/client.exe,   port:127.0.0.1
 
 2025/10/20：新绑定swagger，将项目暴露出http api接口，通过swagger+gin进行在线调试与契约输出
 启动swagger：
-go run .  // 启动全部服务
+go run .  // 启动全部服务, client/client.exe 运行
 go run ./cmd/adminhttp    // 启动swagger文档
 访问   http://localhost:18080/swagger/index.html#/

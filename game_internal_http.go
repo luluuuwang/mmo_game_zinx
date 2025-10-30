@@ -19,7 +19,7 @@ type ServerStatus struct {
 
 type PlayerBrief struct {
 	ID   int    `json:"id"`
-	Name string `json:"name"` // 你的 Player 没有名字字段，先留空
+	Name string `json:"name"` // Player 没有名字字段，先留空
 }
 
 func startInternalHTTP() {
@@ -62,7 +62,7 @@ func startInternalHTTP() {
 	go http.ListenAndServe("127.0.0.1:19090", mux)
 }
 
-// ====== 下面 3 个函数用你的真实 API 实现 ======
+// ====== 下面 3 个函数用真实 API 实现 ======
 
 // 在线人数（基于 WorldMgrObj.Players）
 func worldOnlineCount() int {

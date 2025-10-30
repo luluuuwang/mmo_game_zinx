@@ -4,7 +4,7 @@ go 1.23.0
 
 toolchain go1.24.9
 
-replace zinx => /home/a/go/src/zinx-project/zinx
+replace zinx => ../zinx-project/zinx
 
 require (
 	github.com/gin-gonic/gin v1.11.0
